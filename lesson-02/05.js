@@ -3,5 +3,5 @@ let passport = {
   surname: "Petrov",
 };
 
-console.log(passport)
-console.log({...passport, name: 'Ivan'})
+console.log(passport.name)
+console.log(({...passport, name: 'Ivan'}).name)
