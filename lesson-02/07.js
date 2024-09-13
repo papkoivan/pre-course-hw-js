@@ -7,7 +7,7 @@ let passportMarried = {
   }
 };
 
-const newPassport = {
+const newPassportMarried = {
   ...passportWithAddress,
   married: true,
   address: {
@@ -15,5 +15,5 @@ const newPassport = {
   }
 }
 
-console.log(passportWithAddress)
-console.log(newPassport)
+console.log(passportMarried)
+console.log(newPassportMarried)
